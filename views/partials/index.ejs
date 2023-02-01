@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body class="container">
+
+<main>
+  <body>
+    <ul>
+      <li>
+        Nombre provincia: <%= data.municipio.NOMBRE_PROVINCIA %>
+      </li>
+      <li>
+        Fecha: <%= data.fecha %>
+      </li>
+      <li>
+        Temperatura actual: <%= data.temperatura_actual %>
+      </li>
+      <li> temperaturas:
+        <ul>
+          <li>
+            Max: <%= data.temperaturas.max %>
+          </li>
+          <li>
+            Min: <%= data.temperaturas.min %>
+          </li> 
+        </ul>
+      </li>
+    </ul>
+  </body>
+</main>
+
+</body>
+</html>
